@@ -1,0 +1,5 @@
+========================
+collective.compressimage
+========================
+
+User documentation
