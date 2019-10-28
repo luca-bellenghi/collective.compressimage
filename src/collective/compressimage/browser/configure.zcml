@@ -18,4 +18,13 @@
       directory="static"
       />
 
+  <browser:viewlet
+      name="image_alert"
+      view="plone.app.layout.globals.interfaces.IViewView"
+      manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+      class=".viewlets.ImageAlertViewlet"
+      for="plone.app.contenttypes.interfaces.IImage"
+      permission="zope2.View"
+      />
+
 </configure>

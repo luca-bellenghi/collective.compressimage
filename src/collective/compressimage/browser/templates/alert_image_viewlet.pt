@@ -1,0 +1,8 @@
+<div style="padding: 1em; border: 1px solid #DDD"
+    tal:condition="view/show">
+    <p><strong>Actuale size: <tal:item tal:content="view/info/old_size_hr"/></strong></p>
+    <p>
+        <strong>Saving this image as JPEG with quality 85% of original new image size will be: <tal:item tal:content="view/info/new_size_hr" ></strong>
+        <a style="background-color: #ddd; border: 1px solid #aaa; padding: 0.3em" href="#" tal:attributes="href string:${context/absolute_url}/fix-image">Take a look</a>    
+    </p>
+</div>
