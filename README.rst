@@ -6,12 +6,16 @@
 collective.compressimage
 ========================
 
-Tell me what your product does
+This product show on image content type a viewlet with information about image size 
+and how much it can be compressed with PIL.
+
+The goal is to allow editors to better manage images for the web.
 
 Features
 --------
 
-- Can be bullet points
+- Current main feature is to select a compressed version for Image content type instance
+- In the future it would be nice allow to compress every image field in every content types
 
 
 Examples
